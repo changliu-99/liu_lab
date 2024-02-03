@@ -1,174 +1,166 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1101/2023.07.31.551289
+  title: Electrical Brain Activity during Human Walking with Parametric Variations
+    in Terrain Unevenness and Walking Speed
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
+  - Chang Liu
+  - Ryan J. Downey
+  - Jacob S. Salminen
+  - Sofia Arvelo Rojas
+  - Natalie Richer
+  - Erika M. Pliner
+  - Jungyun Hwang
+  - Yenisel Cruz-Almeida
+  - Todd M. Manini
+  - Chris J. Hass
+  - Rachael D. Seidler
+  - David J. Clark
+  - Daniel P. Ferris
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  date: '2023-08-02'
+  link: https://doi.org/gtgqs8
+  orcid: 0000-0002-0381-4136
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1101/2023.07.10.548298
+  title: Generalizability of foot-placement control strategies during unperturbed
+    and perturbed gait
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
+  - Chang Liu
+  - Francisco J. Valero-Cuevas
+  - James M. Finley
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  date: '2023-07-11'
+  link: https://doi.org/gtgqs9
+  orcid: 0000-0002-0381-4136
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1109/TNSRE.2023.3281356
+  title: Comparison of EEG Source Localization Using Simplified and Anatomically Accurate
+    Head Models in Younger and Older Adults
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Chang Liu
+  - Ryan J. Downey
+  - Yiru Mu
+  - Natalie Richer
+  - Jungyun Hwang
+  - Valay A. Shah
+  - Sumire D. Sato
+  - David J. Clark
+  - Chris J. Hass
+  - Todd M. Manini
+  - Rachael D. Seidler
+  - Daniel P. Ferris
+  publisher: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+  date: '2023-01-01'
+  link: https://doi.org/gtgqtb
+  orcid: 0000-0002-0381-4136
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.1371/journal.pone.0278646
+  title: Uneven terrain treadmill walking in younger and older adults
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vince P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Ryan J. Downey
+  - Natalie Richer
+  - Rohan Gupta
+  - Chang Liu
+  - Erika M. Pliner
+  - Arkaprava Roy
+  - Jungyun Hwang
+  - David J. Clark
+  - Chris J. Hass
+  - Todd M. Manini
+  - Rachael D. Seidler
+  - Daniel P. Ferris
+  publisher: PLOS ONE
+  date: '2022-12-19'
+  link: https://doi.org/gtgqtc
+  orcid: 0000-0002-0381-4136
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.3389/fneur.2022.1032417
+  title: Impairments in the mechanical effectiveness of reactive balance control strategies
+    during walking in people post-stroke
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Chang Liu
+  - Jill L. McNitt-Gray
+  - James M. Finley
+  publisher: Frontiers in Neurology
+  date: '2022-10-31'
+  link: https://doi.org/gtgqtd
+  orcid: 0000-0002-0381-4136
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/28923
+  title: 'General Practice and Digital Methods to Recruit Stroke Survivors to a Clinical
+    Mobility Study: Comparative Analysis'
+  authors:
+  - Katja Reuter
+  - Chang Liu
+  - NamQuyen Le
+  - Praveen Angyan
+  - James M Finley
+  publisher: Journal of Medical Internet Research
+  date: '2021-10-13'
+  link: https://doi.org/gp6c6d
+  orcid: 0000-0002-0381-4136
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/15459683211019346
+  title: Using Biofeedback to Reduce Step Length Asymmetry Impairs Dynamic Balance
+    in People Poststroke
+  authors:
+  - Sungwoo Park
+  - Chang Liu
+  - "Natalia S\xE1nchez"
+  - Julie K. Tilson
+  - Sara J. Mulroy
+  - James M Finley
+  publisher: Neurorehabilitation and Neural Repair
+  date: '2021-06-01'
+  link: https://doi.org/gtgqtf
+  orcid: 0000-0002-0381-4136
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.28923
+  title: 'General Practice and Digital Methods to Recruit Stroke Survivors to a Clinical
+    Mobility Study: Comparative Analysis (Preprint)'
+  authors:
+  - Katja Reuter
+  - Chang Liu
+  - NamQuyen Le
+  - Praveen Angyan
+  - James M Finley
+  publisher: JMIR Publications Inc.
+  date: '2021-04-01'
+  link: https://doi.org/gtgqtg
+  orcid: 0000-0002-0381-4136
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0224187
+  title: "Asymmetric gait patterns alter the reactive control of intersegmental coordination\
+    \ patterns in the sagittal plane\_during walking"
+  authors:
+  - Chang Liu
+  - James M. Finley
+  publisher: PLOS ONE
+  date: '2020-05-21'
+  link: https://doi.org/gtgqth
+  orcid: 0000-0002-0381-4136
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fnhum.2018.00251
+  title: Conservation of Reactive Stabilization Strategies in the Presence of Step
+    Length Asymmetries During Walking
+  authors:
+  - Chang Liu
+  - Lucas De Macedo
+  - James M. Finley
+  publisher: Frontiers in Human Neuroscience
+  date: '2018-06-27'
+  link: https://doi.org/gdvcvs
+  orcid: 0000-0002-0381-4136
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -184,9 +176,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -203,21 +192,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
