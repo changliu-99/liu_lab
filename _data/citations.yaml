@@ -19,6 +19,8 @@
   publisher: IEEE Transactions on Neural Systems and Rehabilitation Engineering
   date: '2023-01-01'
   link: https://doi.org/gtgqtb
+  type: paper
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7333/10031624/10138592/liu2-3281356-large.gif
   tags:
   - EEG
   plugin: sources.py
