@@ -28,6 +28,7 @@
   tags:
   - EEG
   - Terrain walking
+  - Gait
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/TNSRE.2023.3281356
@@ -57,5 +58,21 @@
   tags:
   - EEG
   - Methods
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2023.07.10.548298
+  title: Generalizability of foot-placement control strategies during unperturbed
+    and perturbed gait
+  authors:
+  - Chang Liu
+  - Francisco J. Valero-Cuevas
+  - James M. Finley
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-07-11'
+  link: https://doi.org/gtgqs9
+  tags:
+  - Perturbations
+  - Gait
+  - Modeling
   plugin: sources.py
   file: sources.yaml
