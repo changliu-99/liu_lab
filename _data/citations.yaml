@@ -1,31 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1109/TNSRE.2023.3281356
-  title: Comparison of EEG Source Localization Using Simplified and Anatomically Accurate
-    Head Models in Younger and Older Adults
-  authors:
-  - Chang Liu
-  - Ryan J. Downey
-  - Yiru Mu
-  - Natalie Richer
-  - Jungyun Hwang
-  - Valay A. Shah
-  - Sumire D. Sato
-  - David J. Clark
-  - Chris J. Hass
-  - Todd M. Manini
-  - Rachael D. Seidler
-  - Daniel P. Ferris
-  publisher: IEEE Transactions on Neural Systems and Rehabilitation Engineering
-  date: '2023-01-01'
-  link: https://doi.org/gtgqtb
-  type: paper
-  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7333/10031624/10138592/liu2-3281356-large.gif
-  tags:
-  - EEG
-  - Methods
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1101/2023.07.31.551289
   title: Electrical Brain Activity during Human Walking with Parametric Variations
     in Terrain Unevenness and Walking Speed
@@ -51,5 +25,37 @@
   tags:
   - EEG
   - Terrain walking
+  buttons:
+  - type: source
+    link: https://openneuro.org/datasets/ds004625
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/TNSRE.2023.3281356
+  title: Comparison of EEG Source Localization Using Simplified and Anatomically Accurate
+    Head Models in Younger and Older Adults
+  authors:
+  - Chang Liu
+  - Ryan J. Downey
+  - Yiru Mu
+  - Natalie Richer
+  - Jungyun Hwang
+  - Valay A. Shah
+  - Sumire D. Sato
+  - David J. Clark
+  - Chris J. Hass
+  - Todd M. Manini
+  - Rachael D. Seidler
+  - Daniel P. Ferris
+  publisher: IEEE Transactions on Neural Systems and Rehabilitation Engineering
+  date: '2023-01-01'
+  link: https://doi.org/gtgqtb
+  type: paper
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7333/10031624/10138592/liu2-3281356-large.gif
+  description: Aim to improve the source localization accuracy for EEG studies by
+    determining the error caused by using simplified head models without individual-specific
+    MRIs in both younger and older adults.
+  tags:
+  - EEG
+  - Methods
   plugin: sources.py
   file: sources.yaml
