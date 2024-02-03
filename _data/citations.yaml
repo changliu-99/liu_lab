@@ -58,6 +58,8 @@
   orcid: 0000-0002-0381-4136
   plugin: sources.py
   file: sources.yaml
+  tags:
+  - EEG
 - id: doi:10.1371/journal.pone.0278646
   title: Uneven terrain treadmill walking in younger and older adults
   authors:
