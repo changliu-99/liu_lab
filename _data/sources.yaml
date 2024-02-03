@@ -1,4 +1,6 @@
 - id: doi:10.1109/TNSRE.2023.3281356
+  type: paper
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7333/10031624/10138592/liu2-3281356-large.gif
   tags:
     - EEG
 
