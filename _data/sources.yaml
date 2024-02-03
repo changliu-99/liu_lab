@@ -1,8 +1,12 @@
 - id: doi:10.1109/TNSRE.2023.3281356
   type: paper
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/7333/10031624/10138592/liu2-3281356-large.gif
-  description: Compared to flat walking, walking over uneven terrain increased theta band power (synchronization), and decreased alpha and beta-band power (desynchronization) near sensorimotor and parietal posterior areas, indicating increased level of visuospatial attention to the environment and greater alertness to balance threat with terrain unevenness.
   tags:
     - EEG
     - Methods
-
+- id: doi:10.1101/2023.07.31.551289
+  type: paper
+  image: https://www.changliu99.com/uploads/1/3/7/9/137900733/website1_orig.png
+  tags:
+    - EEG
+    - Terrain walking
