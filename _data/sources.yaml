@@ -20,4 +20,9 @@
     - Perturbations
     - Gait
     - Modeling
-
+- id: doi:https://doi.org/10.1371/journal.pone.0278646
+  type: paper
+  tags:
+    - Gait
+    - Terrain walking
+    - Wearable sensor
