@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2023.07.31.551289
+- id: doi:https://doi.org/10.1162/imag_a_00097
   title: Electrical Brain Activity during Human Walking with Parametric Variations
     in Terrain Unevenness and Walking Speed
   authors:
@@ -17,9 +17,9 @@
   - Rachael D. Seidler
   - David J. Clark
   - Daniel P. Ferris
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-08-02'
-  link: https://doi.org/gtgqs8
+  publisher: Imaging Neuroscience
+  date: '2024-02-06'
+  link: https://doi.org/gtg8c3
   type: paper
   image: https://www.changliu99.com/uploads/1/3/7/9/137900733/website1_orig.png
   buttons:
@@ -74,5 +74,30 @@
   - Perturbations
   - Gait
   - Modeling
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:https://doi.org/10.1371/journal.pone.0278646
+  title: Uneven terrain treadmill walking in younger and older adults
+  authors:
+  - Ryan J. Downey
+  - Natalie Richer
+  - Rohan Gupta
+  - Chang Liu
+  - Erika M. Pliner
+  - Arkaprava Roy
+  - Jungyun Hwang
+  - David J. Clark
+  - Chris J. Hass
+  - Todd M. Manini
+  - Rachael D. Seidler
+  - Daniel P. Ferris
+  publisher: PLOS ONE
+  date: '2022-12-19'
+  link: https://doi.org/gtgqtc
+  type: paper
+  tags:
+  - Gait
+  - Terrain walking
+  - Wearable sensor
   plugin: sources.py
   file: sources.yaml
