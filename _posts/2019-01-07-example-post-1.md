@@ -1,10 +1,9 @@
 ---
-title: Example post 1
-author: sarah-johnson
+title: Statistical Analysis Tutorial/Useful links  
+author: Chang Liu
 tags:
-  - biology
-  - medicine
-  - big data
+  - statistics
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Useful links:
+https://rpsychologist.com/cohend/
