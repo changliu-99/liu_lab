@@ -486,7 +486,7 @@
 -->
 
 
-<p>EEG Tutorial</p>
+<h1 id="eeg-tutorial">EEG Tutorial</h1>
 <ol>
   <li>
     <p>Where do we start:
@@ -503,11 +503,27 @@ R:\Ferris-Lab\liu.chang1\DATA\SampleData\2019-12-19_humanExampleData\Raw</p>
 </ol>
 
 <h2 id="some-useful-code-blocks">Some useful code blocks</h2>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;html&gt;
-  &lt;head&gt;
-  EEG = pop_eegfiltnew(EEG, 'locutoff',1,'chantype',{'EEG' 'EMG' 'Noise'});
-  &lt;/head&gt;
-&lt;/html&gt;
+<p>High-pass filter at 1Hz</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EEG = pop_eegfiltnew(EEG, 'locutoff',1,'chantype',{'EEG' 'EMG' 'Noise'});
+</code></pre></div></div>
+<p>Keep only a subset of chans</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EEG_chans = find(strcmpi('EEG',{EEG.chanlocs.type})); %define channels
+EMG_chans = find(strcmpi('EMG',{EEG.chanlocs.type}));
+Noise_chans = find(strcmpi('Noise',{EEG.chanlocs.type}));
+
+EEG = pop_select( EEG, 'channel', sort([EEG_chans, EMG_chans,Noise_chans])); %select subset of channels
+EEG = pop_select( EEG, 'channel', sort([EEG_chans])); %select just EEG channels
+
+%update channel labels again just in case
+EEG_chans = find(strcmpi('EEG',{EEG.chanlocs.type})); 
+EMG_chans = find(strcmpi('EMG',{EEG.chanlocs.type}));
+Noise_chans = find(strcmpi('Noise',{EEG.chanlocs.type}));
+</code></pre></div></div>
+<p>Re-reference and do cleanline</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EEG = rerefC2CN2NExt2Ext_func(EEG,fullRankAvRefBool);
+EEG = pop_cleanline(EEG, 'bandwidth',2,'chanlist',[EEG_chans EMG_chans Noise_chans],'computepower',1,...
+    'linefreqs',[60 120],'newversion',0,'normSpectrum',0,'p',0.01,'pad',2,'plotfigures',...
+    0,'scanforlines',1,'sigtype','Channels','taperbandwidth',2,'tau',100,'verb',1,'winsize',4,'winstep',1);
 </code></pre></div></div>
   </section>
 
