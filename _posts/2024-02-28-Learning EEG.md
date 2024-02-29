@@ -10,7 +10,7 @@
    
 ## Some useful code blocks    
 High-pass filter at 1Hz
-```
+``` matlab
 EEG = pop_eegfiltnew(EEG, 'locutoff',1,'chantype',{'EEG' 'EMG' 'Noise'});
 ```
 Keep only a subset of chans
