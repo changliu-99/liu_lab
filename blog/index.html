@@ -556,6 +556,11 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   
 
   
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>February 29, 2024</span>
+    </span>
+  
 </div>
 
 
@@ -568,12 +573,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
   
   
-  <p data-search="EEG Tutorial      Where do we start https   eeglab org tutorials         A clean resting state human EEG dataset to test R  Ferris Lab liu chang1 DATA SampleData 2019 12 19 humanExampleData Raw        iCanClean to remove motion artifacts with the dual layer electrode design https   www mdpi com 1424 8220 23 19 8214  ">
+  <p data-search="EEG Tutorial      Where do we start  EEGLAB Tutorial https   eeglab org tutorials         A clean resting state human EEG dataset to test R  Ferris Lab liu chang1 DATA SampleData 2019 12 19 humanExampleData Raw        iCanClean to remove motion artifacts with the dual layer electrode design  Paper on iCanClean https   www mdpi com 1424 8220 23 19 8214  Some useful code blocks lt html gt    lt head gt   EEG   pop eegfiltnew EEG   locutoff  1  chantype    EEG   EMG   Noise       lt  head gt  lt  html gt ">
     EEG Tutorial
 
   
     Where do we start:
-https://eeglab.org/tutorials/
+[EEGLAB Tutorial]https://eeglab.org/tutorials/
   
   
     A clean/resting state human EEG dataset to test:
@@ -581,9 +586,16 @@ R:\Ferris-Lab\liu.chang1\DATA\SampleData\2019-12-19_humanExampleData\Raw
   
   
     iCanClean to remove motion artifacts with the dual-layer electrode design:
-https://www.mdpi.com/1424-8220/23/19/8214
+[Paper on iCanClean]https://www.mdpi.com/1424-8220/23/19/8214
   
 
+
+Some useful code blocks
+&lt;html&gt;
+  &lt;head&gt;
+  EEG = pop_eegfiltnew(EEG, 'locutoff',1,'chantype',{'EEG' 'EMG' 'Noise'});
+  &lt;/head&gt;
+&lt;/html&gt;
 
 
   </p>
@@ -618,7 +630,7 @@ https://www.mdpi.com/1424-8220/23/19/8214
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 28, 2024</span>
+      <span>February 29, 2024</span>
     </span>
   
 </div>

@@ -466,6 +466,11 @@
   
 
   
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>February 29, 2024</span>
+    </span>
+  
 </div>
   </section>
 
@@ -485,7 +490,7 @@
 <ol>
   <li>
     <p>Where do we start:
-https://eeglab.org/tutorials/</p>
+[EEGLAB Tutorial]https://eeglab.org/tutorials/</p>
   </li>
   <li>
     <p>A clean/resting state human EEG dataset to test:
@@ -493,9 +498,17 @@ R:\Ferris-Lab\liu.chang1\DATA\SampleData\2019-12-19_humanExampleData\Raw</p>
   </li>
   <li>
     <p>iCanClean to remove motion artifacts with the dual-layer electrode design:
-https://www.mdpi.com/1424-8220/23/19/8214</p>
+[Paper on iCanClean]https://www.mdpi.com/1424-8220/23/19/8214</p>
   </li>
 </ol>
+
+<h2 id="some-useful-code-blocks">Some useful code blocks</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;html&gt;
+  &lt;head&gt;
+  EEG = pop_eegfiltnew(EEG, 'locutoff',1,'chantype',{'EEG' 'EMG' 'Noise'});
+  &lt;/head&gt;
+&lt;/html&gt;
+</code></pre></div></div>
   </section>
 
   
