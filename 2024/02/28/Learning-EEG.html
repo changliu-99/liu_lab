@@ -504,7 +504,7 @@ R:\Ferris-Lab\liu.chang1\DATA\SampleData\2019-12-19_humanExampleData\Raw</p>
 
 <h2 id="some-useful-code-blocks">Some useful code blocks</h2>
 <p>High-pass filter at 1Hz</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EEG = pop_eegfiltnew(EEG, 'locutoff',1,'chantype',{'EEG' 'EMG' 'Noise'});
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">EEG</span> <span class="o">=</span> <span class="n">pop_eegfiltnew</span><span class="p">(</span><span class="n">EEG</span><span class="p">,</span> <span class="s1">'locutoff'</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="s1">'chantype'</span><span class="p">,{</span><span class="s1">'EEG'</span> <span class="s1">'EMG'</span> <span class="s1">'Noise'</span><span class="p">});</span>
 </code></pre></div></div>
 <p>Keep only a subset of chans</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>EEG_chans = find(strcmpi('EEG',{EEG.chanlocs.type})); %define channels
