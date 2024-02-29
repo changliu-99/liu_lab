@@ -13,8 +13,9 @@ High-pass filter at 1Hz
 ``` matlab
 EEG = pop_eegfiltnew(EEG, 'locutoff',1,'chantype',{'EEG' 'EMG' 'Noise'});
 ```
+
 Keep only a subset of chans
-```
+``` matlab
 EEG_chans = find(strcmpi('EEG',{EEG.chanlocs.type})); %define channels
 EMG_chans = find(strcmpi('EMG',{EEG.chanlocs.type}));
 Noise_chans = find(strcmpi('Noise',{EEG.chanlocs.type}));
@@ -27,8 +28,9 @@ EEG_chans = find(strcmpi('EEG',{EEG.chanlocs.type}));
 EMG_chans = find(strcmpi('EMG',{EEG.chanlocs.type}));
 Noise_chans = find(strcmpi('Noise',{EEG.chanlocs.type}));
 ```
+
 Re-reference and do cleanline
-```
+``` matlab
 EEG = rerefC2CN2NExt2Ext_func(EEG,fullRankAvRefBool);
 EEG = pop_cleanline(EEG, 'bandwidth',2,'chanlist',[EEG_chans EMG_chans Noise_chans],'computepower',1,...
     'linefreqs',[60 120],'newversion',0,'normSpectrum',0,'p',0.01,'pad',2,'plotfigures',...
