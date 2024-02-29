@@ -594,11 +594,6 @@ Some useful code blocks
 High-pass filter at 1Hz
 EEG = pop_eegfiltnew(EEG, 'locutoff',1,'chantype',{'EEG' 'EMG' 'Noise'});
 
-Keep only a subset of chans
-```
-EEG_chans = find(strcmpi(‘EEG’,{EEG.chanlocs.type})); %define channels
-EMG_chans = find(strcmpi(‘EMG’,{EEG.chanlocs.type}));
-Noise_chans = find(strcmpi(‘Noise’,{EEG.chanlocs.type}));
 
   </p>
 </div>
