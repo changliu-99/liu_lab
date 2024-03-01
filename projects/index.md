@@ -7,9 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 {% include tags.html tags="publication, resource, website" %}
 
 {% include search-info.html %}
@@ -18,7 +15,10 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Featured
 
-{% include list.html component="card" data="projects" filters="group: featured" %}
+<div style="display: flex; align-items: center;">
+    <img src="[image_url.jpg]("") alt="Image" width="200" height="200" style="margin-right: 10px;">
+    <p>This is the text that will appear next to the image.</p>
+</div>
 
 {% include section.html %}
 

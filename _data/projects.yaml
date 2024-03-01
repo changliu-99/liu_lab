@@ -1,47 +1,9 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Supraspinal control of human locomotion stability
+  subtitle: MoBI
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://mitp.silverchair-cdn.com/mitp/content_public/journal/imag/2/10.1162_imag_a_00097/2/m_imag_a_00097_fig1.png?Expires=1712336262&Signature=yNfxelmXTktjqV-tMmEOGwARoIXvF6lS5dyExTPYdrhC-TCYZmCHnicwpIxOKAaMtpGTtR5bGW1jJKI-Tz~bM7-geNvCJFRcHRyV082lG-KPQFBQwYW6Tn9Na5piXF-hknlg2WwiO~qZQVZTx22lWqw8F5tIZQCuQiPfejj9WToPzEqvSpmNw6ljHvBNhUfRoK8nKK3tSF~OlMAQzoKbJPAtFzc4lw5EVoCPrW9IHqoSewQpFJbWBeD98vNwNTU1CdsmxnyMk9SQBln02X0UE8J2C6Fg2MFWBO3IZ2aSftpvYNFPd6G3hoZMnJfHLkb9oEyfzEMQoAmYJSrvYv~2hw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
+  link: 
+  description: A multi-lab collaboration to understand cortical activity during uneven terrain walking for young and older adults
   tags:
-    - resource
+    - EEG
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
