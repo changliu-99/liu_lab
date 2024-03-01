@@ -22,6 +22,7 @@ nav:
         <li>Led a large study on investigating brain activity during negotiation over uneven terrain using mobile imaging with EEG in young and older adults.​</li>
         <li>Compared to flat walking, walking over uneven terrain increased theta band power (synchronization), and decreased alpha and beta-band power (desynchronization) near sensorimotor and parietal posterior areas, indicating increased level of visuospatial attention to the environment and greater alertness to balance threat with terrain unevenness.</li>
         <li>These results will serve as a benchmark for evaluating cortical contribution to mobility deficits in older adults.</li>
+      </ul>
     </p>
 </div>
 
