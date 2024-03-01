@@ -26,3 +26,11 @@
     - Gait
     - Terrain walking
     - Wearable sensor
+- id: https://doi.org/10.3389/fnhum.2018.00251
+  type: paper
+  image: https://www.frontiersin.org/files/Articles/335978/fnhum-12-00251-HTML/image_m/fnhum-12-00251-g001.jpg
+  tags:
+    - Perturbations
+    - Gait
+    - Balance
+- 
