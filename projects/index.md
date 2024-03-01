@@ -16,7 +16,7 @@ nav:
 ## Featured
 
 <div style="display: flex; align-items: center;">
-    <img src="[image_url.jpg]("") alt="Image" width="200" height="200" style="margin-right: 10px;">
+    <img src="[website1_orig.png]("https://github.com/changliu-99/liu_lab/blob/main/images/website1_orig.png?raw=true") alt="Image" width="200" height="200" style="margin-right: 10px;">
     <p>This is the text that will appear next to the image.</p>
 </div>
 
