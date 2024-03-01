@@ -1,5 +1,5 @@
 ---
-title: Statistical Analysis Tutorial/Useful links  
+title: Learning EEG  
 author: Chang Liu
 tags:
   - EEG
