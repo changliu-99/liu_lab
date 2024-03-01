@@ -39,6 +39,7 @@ EEG = pop_cleanline(EEG, 'bandwidth',2,'chanlist',[EEG_chans EMG_chans Noise_cha
 
 ## Useful preprocessing code block 
 [Example code](https://github.com/changliu-99/Reference-code/tree/3a58c382a47f5cc7278c404ea96afbf3dfee976f/EEG/Preprocessing)
+
 Step 1: Remove bad channels based on standard deviation and kurtosis: 
 ``` matlab
 EEG = autoRejCh_func_CL(EEG,threshold);
