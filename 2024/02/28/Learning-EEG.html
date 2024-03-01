@@ -529,8 +529,9 @@ R:\Ferris-Lab\liu.chang1\DATA\SampleData\2019-12-19_humanExampleData\Raw</p>
 </code></pre></div></div>
 
 <h2 id="useful-preprocessing-code-block">Useful preprocessing code block</h2>
-<p><a href="https://github.com/changliu-99/Reference-code/tree/3a58c382a47f5cc7278c404ea96afbf3dfee976f/EEG/Preprocessing">Example code</a>
-Step 1: Remove bad channels based on standard deviation and kurtosis:</p>
+<p><a href="https://github.com/changliu-99/Reference-code/tree/3a58c382a47f5cc7278c404ea96afbf3dfee976f/EEG/Preprocessing">Example code</a></p>
+
+<p>Step 1: Remove bad channels based on standard deviation and kurtosis:</p>
 <div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">EEG</span> <span class="o">=</span> <span class="n">autoRejCh_func_CL</span><span class="p">(</span><span class="n">EEG</span><span class="p">,</span><span class="n">threshold</span><span class="p">);</span>
 </code></pre></div></div>
 
