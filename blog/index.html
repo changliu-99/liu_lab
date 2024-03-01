@@ -558,7 +558,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 29, 2024</span>
+      <span>March 01, 2024</span>
     </span>
   
 </div>
@@ -573,7 +573,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
   
   
-  <p data-search="EEG Tutorial      Where do we start EEGLAB Tutorial        A clean resting state human EEG dataset to test R  Ferris Lab liu chang1 DATA SampleData 2019 12 19 humanExampleData Raw        iCanClean to remove motion artifacts with the dual layer electrode design Paper on iCanClean  Some useful code blocksHigh pass filter at 1HzEEG   pop eegfiltnew EEG   locutoff  1  chantype    EEG   EMG   Noise    Keep only a subset of chansEEG chans   find strcmpi  EEG   EEG chanlocs type      define channelsEMG chans   find strcmpi  EMG   EEG chanlocs type    Noise chans   find strcmpi  Noise   EEG chanlocs type    EEG   pop select  EEG   channel   sort  EEG chans  EMG chans Noise chans      select subset of channelsEEG   pop select  EEG   channel   sort  EEG chans      select just EEG channels update channel labels again just in caseEEG chans   find strcmpi  EEG   EEG chanlocs type     EMG chans   find strcmpi  EMG   EEG chanlocs type    Noise chans   find strcmpi  Noise   EEG chanlocs type    Re reference and do cleanlineEEG   rerefC2CN2NExt2Ext func EEG fullRankAvRefBool  EEG   pop cleanline EEG   bandwidth  2  chanlist   EEG chans EMG chans Noise chans   computepower  1         linefreqs   60 120   newversion  0  normSpectrum  0  p  0 01  pad  2  plotfigures         0  scanforlines  1  sigtype   Channels   taperbandwidth  2  tau  100  verb  1  winsize  4  winstep  1  ">
+  <p data-search="EEG Tutorial      Where do we start EEGLAB Tutorial        A clean resting state human EEG dataset to test your rejection R  Ferris Lab liu chang1 DATA SampleData 2019 12 19 humanExampleData Raw        Downey et al  2023  iCanClean to remove motion artifacts with the dual layer electrode designPaper on iCanClean  Some useful code blocksHigh pass filter at 1HzEEG   pop eegfiltnew EEG   locutoff  1  chantype    EEG   EMG   Noise    Keep only a subset of chansEEG chans   find strcmpi  EEG   EEG chanlocs type      define channelsEMG chans   find strcmpi  EMG   EEG chanlocs type    Noise chans   find strcmpi  Noise   EEG chanlocs type    EEG   pop select  EEG   channel   sort  EEG chans  EMG chans Noise chans      select subset of channelsEEG   pop select  EEG   channel   sort  EEG chans      select just EEG channels update channel labels again just in caseEEG chans   find strcmpi  EEG   EEG chanlocs type     EMG chans   find strcmpi  EMG   EEG chanlocs type    Noise chans   find strcmpi  Noise   EEG chanlocs type    Re reference and do cleanlineEEG   rerefC2CN2NExt2Ext func EEG fullRankAvRefBool  EEG   pop cleanline EEG   bandwidth  2  chanlist   EEG chans EMG chans Noise chans   computepower  1         linefreqs   60 120   newversion  0  normSpectrum  0  p  0 01  pad  2  plotfigures     0  scanforlines  1  sigtype   Channels   taperbandwidth  2  tau  100  verb  1  winsize  4  winstep  1  Useful preprocessing code blockStep 1  Remove bad channels based on standard deviation and kurtosisauto rejection codeEEG   autoRejCh func CL EEG threshold  ">
     EEG Tutorial
 
   
@@ -581,11 +581,11 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 EEGLAB Tutorial
   
   
-    A clean/resting state human EEG dataset to test:
+    A clean/resting state human EEG dataset to test your rejection:
 R:\Ferris-Lab\liu.chang1\DATA\SampleData\2019-12-19_humanExampleData\Raw
   
   
-    iCanClean to remove motion artifacts with the dual-layer electrode design:
+    Downey et al. 2023: iCanClean to remove motion artifacts with the dual-layer electrode design
 Paper on iCanClean
   
 
@@ -627,7 +627,7 @@ EEG = pop_eegfiltnew(EEG, 'locutoff',1,'chantype',{'EEG' 'EMG' 'Noise'});
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 29, 2024</span>
+      <span>March 01, 2024</span>
     </span>
   
 </div>

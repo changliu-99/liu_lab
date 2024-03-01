@@ -468,7 +468,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 29, 2024</span>
+      <span>March 01, 2024</span>
     </span>
   
 </div>
@@ -493,11 +493,11 @@
 <a href="https://eeglab.org/tutorials/">EEGLAB Tutorial</a></p>
   </li>
   <li>
-    <p>A clean/resting state human EEG dataset to test:
+    <p>A clean/resting state human EEG dataset to test your rejection:
 R:\Ferris-Lab\liu.chang1\DATA\SampleData\2019-12-19_humanExampleData\Raw</p>
   </li>
   <li>
-    <p>iCanClean to remove motion artifacts with the dual-layer electrode design:
+    <p>Downey et al. 2023: iCanClean to remove motion artifacts with the dual-layer electrode design
 <a href="https://www.mdpi.com/1424-8220/23/19/8214">Paper on iCanClean</a></p>
   </li>
 </ol>
@@ -525,7 +525,13 @@ R:\Ferris-Lab\liu.chang1\DATA\SampleData\2019-12-19_humanExampleData\Raw</p>
 <div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">EEG</span> <span class="o">=</span> <span class="n">rerefC2CN2NExt2Ext_func</span><span class="p">(</span><span class="n">EEG</span><span class="p">,</span><span class="n">fullRankAvRefBool</span><span class="p">);</span>
 <span class="n">EEG</span> <span class="o">=</span> <span class="n">pop_cleanline</span><span class="p">(</span><span class="n">EEG</span><span class="p">,</span> <span class="s1">'bandwidth'</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s1">'chanlist'</span><span class="p">,[</span><span class="n">EEG_chans</span> <span class="n">EMG_chans</span> <span class="n">Noise_chans</span><span class="p">],</span><span class="s1">'computepower'</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="k">...</span>
     <span class="s1">'linefreqs'</span><span class="p">,[</span><span class="mi">60</span> <span class="mi">120</span><span class="p">],</span><span class="s1">'newversion'</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="s1">'normSpectrum'</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="s1">'p'</span><span class="p">,</span><span class="mf">0.01</span><span class="p">,</span><span class="s1">'pad'</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s1">'plotfigures'</span><span class="p">,</span><span class="k">...</span>
-    <span class="mi">0</span><span class="p">,</span><span class="s1">'scanforlines'</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="s1">'sigtype'</span><span class="p">,</span><span class="s1">'Channels'</span><span class="p">,</span><span class="s1">'taperbandwidth'</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s1">'tau'</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="s1">'verb'</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="s1">'winsize'</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="s1">'winstep'</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span>
+<span class="mi">0</span><span class="p">,</span><span class="s1">'scanforlines'</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="s1">'sigtype'</span><span class="p">,</span><span class="s1">'Channels'</span><span class="p">,</span><span class="s1">'taperbandwidth'</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="s1">'tau'</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="s1">'verb'</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="s1">'winsize'</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="s1">'winstep'</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h2 id="useful-preprocessing-code-block">Useful preprocessing code block</h2>
+<p>Step 1: Remove bad channels based on standard deviation and kurtosis
+<a href="https://github.com/changliu-99/Reference-code/blob/37ebdabc514e624424b7473eb1a317b228b44f14/EEG/Preprocessing/autoRejCh_func_CL.m">auto_rejection_code</a></p>
+<div class="language-matlab highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">EEG</span> <span class="o">=</span> <span class="n">autoRejCh_func_CL</span><span class="p">(</span><span class="n">EEG</span><span class="p">,</span><span class="n">threshold</span><span class="p">);</span>
 </code></pre></div></div>
   </section>
 
