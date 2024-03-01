@@ -37,9 +37,30 @@ EEG = pop_cleanline(EEG, 'bandwidth',2,'chanlist',[EEG_chans EMG_chans Noise_cha
 0,'scanforlines',1,'sigtype','Channels','taperbandwidth',2,'tau',100,'verb',1,'winsize',4,'winstep',1);
 ```
 
-## Useful preprocessing code block
-Step 1: Remove bad channels based on standard deviation and kurtosis
-[auto_rejection_code](https://github.com/changliu-99/Reference-code/blob/37ebdabc514e624424b7473eb1a317b228b44f14/EEG/Preprocessing/autoRejCh_func_CL.m)
+## Useful preprocessing code block 
+[Example code](https://github.com/changliu-99/Reference-code/tree/3a58c382a47f5cc7278c404ea96afbf3dfee976f/EEG/Preprocessing)
+Step 1: Remove bad channels based on standard deviation and kurtosis: 
 ``` matlab
 EEG = autoRejCh_func_CL(EEG,threshold);
+```
+
+Step 2: Perform average re-reference of EEG, EMG, and Noice channels
+``` matlab
+fullRankAvRefBool = false;
+EEG = rerefC2CN2NExt2Ext_func(EEG,fullRankAvRefBool);
+```
+
+Optional Step: Remove motion artifact with iCanClean
+``` matlab
+[EEG] = iCanClean(EEG,[EEG_chans], [Noise_chans], 0, params);
+```
+
+Optional Step: Remove muscle artifact with iCanClean
+``` matlab
+[EEG] = iCanClean(EEG,[EEG_chans], [EMG_chans], 0, params);
+```
+
+Optional Step: Use EEGLAB's channel rejection/time rejection method with parameters
+``` matlab
+[EEG_temp_clean,EEG_temp_clean_timerej,p_frames_rej,p_chan_rej] = channelrejection_wrap(EEG,config);
 ```
