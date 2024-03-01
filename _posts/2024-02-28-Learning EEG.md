@@ -15,6 +15,9 @@ tags:
 3. Downey et al. 2023: iCanClean to remove motion artifacts with the dual-layer electrode design
    [Paper on iCanClean](https://www.mdpi.com/1424-8220/23/19/8214)
    
+## Overall flowchart
+![image](https://github.com/changliu-99/liu_lab/assets/17205418/aefb93bc-1c2a-47da-8a31-63cfdc2d203a)
+
 ## Some useful code blocks    
 High-pass filter at 1Hz
 ``` matlab
@@ -70,5 +73,5 @@ Optional Step: Remove muscle artifact with iCanClean
 
 Optional Step: Use EEGLAB's channel rejection/time rejection method with parameters
 ``` matlab
-[EEG_temp_clean,EEG_temp_clean_timerej,p_frames_rej,p_chan_rej] = channelrejection_wrap(EEG,config);
+[EEG_clean,EEG_clean_timerej,p_frames_rej,p_chan_rej] = channelrejection_wrap(EEG,config);
 ```
