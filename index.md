@@ -3,7 +3,7 @@
 
 # Liu Lab Welcome!
 
-<span style="color:#001E62; font-size:1em">We are a human movement science lab at University of Illinois Chicago investigating brain activity during whole-body movement particularly gait, and leverage such the brain-body dynamics to inform rehabilitation decisions for aging population and people with neurological deficits. </span>
+<span style="color:#001E62; font-size:1.5em">We are a human movement science lab at University of Illinois Chicago investigating brain activity during whole-body movement particularly gait, and leverage such the brain-body dynamics to inform rehabilitation decisions for aging population and people with neurological deficits. </span>
 
 Let us know if you would like to join our lab, collaborate in the greater Chicago area, or be our participant!
 
