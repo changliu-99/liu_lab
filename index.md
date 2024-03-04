@@ -1,10 +1,9 @@
 ---
 ---
 
-# maggie4apple's Website
+# Liu Lab Welcome!
 
-An engaging 1-3 sentence description of your lab.
-
+We are a human movement science lab at University of Illinois Chicago investigating brain activity during whole-body movement particularly gait, and leverage such the brain-body dynamics to inform rehabilitation decisions for aging population and people with neurological deficits. 
 {% include section.html %}
 
 ## Highlights
